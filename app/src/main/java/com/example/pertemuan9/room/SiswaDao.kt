@@ -17,7 +17,7 @@ interface SiswaDao {
     suspend fun insert(siswa: Siswa) // Koreksi: suspend, bukan suspen
 
     @Query(value = "SELECT * from tblsiswa WHERE id = :id")
-    fun getsiswa(id: Int): Flow<Siswa>
+    fun getsiswa(id: Int): Flow<Siswa?>
 
     @Delete
     suspend fun delete(siswa: Siswa)
