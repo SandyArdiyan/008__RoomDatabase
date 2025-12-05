@@ -19,4 +19,9 @@ interface SiswaDao {
     @Query(value = "SELECT * from tblsiswa WHERE id = :id")
     fun getsiswa(id: Int): Flow<Siswa>
 
+    @Delete
+    suspend fun delete(siswa: Siswa)
+
+    @Update
+    suspend fun update(siswa: Siswa)
 }
