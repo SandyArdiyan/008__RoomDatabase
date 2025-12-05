@@ -14,6 +14,7 @@ Room Database 2
 <img width="382" height="800" alt="image" src="https://github.com/user-attachments/assets/ceec034c-b7b7-43cf-8cfc-6e21b22c405c" />
 
 Halaman Detail Siswa
+
 <img width="384" height="818" alt="image" src="https://github.com/user-attachments/assets/eba410f8-c7d8-4d80-a567-bf9bb84e51b2" />
 
 Hapus Data :
